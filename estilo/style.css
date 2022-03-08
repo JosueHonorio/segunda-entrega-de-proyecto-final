@@ -1,0 +1,347 @@
+/*-----------------GENERALES-----------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Public Sans", sans-serif;
+}
+
+/*-----------------INICIO HERO-----------------*/
+
+.inicio-hero{
+    display: flex;
+    background-image: url("../multimedia/imagenes/imagen-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 94vh;
+}
+
+.inicio-texto{
+    width: 900px;
+    color: white;
+}
+
+/*-----------------INFORMACION-----------------*/
+
+.fondo-edit{
+    background-color: #e0e0e0;
+}
+
+.img-caja{
+    margin: 20px 0;
+}
+
+.img-caja img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.img-caja img:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.edit-titulo{
+    margin: 60px;
+}
+
+.button-edit{
+    background-color: #fff8f8;
+    border-color: #fff8f8;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.button-edit a{
+    color: black;
+    text-decoration: none;
+}
+
+.button-edit:hover{
+    border-color: #ddd;
+    background-color: #ddd;
+}
+
+/*-----------------BANNER-----------------*/
+
+.inicio-banner{
+    background-color: #979797;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*-----------------APOYAR-----------------*/
+
+.caja-img img{
+    width: 650px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.caja-text p{
+    width: 600px;
+    padding: 20px;
+}
+
+/*-----------------ADOPCION/INICIO-----------------*/
+
+.adoptar-inicio{
+    background-color: #f5f4f4;
+}
+
+
+
+
+
+/*-----------------ADOPCION-----------------*/
+
+.adopcion-hero{
+    display: flex;
+    background-image: url("../multimedia/imagenes/adopcion-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    height: 94vh;
+}
+
+.adopcion-texto{
+    color: white;
+}
+
+.editar-adop{
+    width: 200px;
+}
+
+/*-----------------INFO-----------------*/
+
+.caja-adoptar{
+    width: 500px;
+    margin: 60px;
+}
+
+.img-edit img{
+    width: 550px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+/*-----------------ADOPTADOS-----------------*/
+
+.edit-fondo{
+    background-color: #ddd;
+}
+
+.caja-imagen img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.caja-imagen img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;   
+}
+
+
+/*-----------------BANNER-----------------*/
+
+.caja-similar{
+    background-color: #a7f5b8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+/*-----------------NOSOTROS-----------------*/
+
+.nosotros-hero{
+    display: flex;
+    background-image: url(../multimedia/imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    height: 75vh;
+}
+
+.nosotros-texto{
+    color: rgb(51, 51, 51);
+}
+
+/*-----------------INFO-----------------*/
+
+.subtitulo-nosotros{
+    margin: 40px;
+}
+
+.caja-ad img{
+    width: 550px;
+    height: 450px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.texto-sub {
+    width: 700px;
+    padding: 60px;
+}
+
+/*-----------------AYUDA ENTREGADA-----------------*/
+
+.caja-ayuda img{
+    width: 250px;
+    height: 250px;
+}
+
+
+/*-----------------NOTICIAS-----------------*/
+
+.noticias-hero{
+    display: flex;
+    background-image: url(https://www.fundaciontepa.org/wp-content/uploads/2020/08/cabecera-blog4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    height: 75vh;
+}
+
+.noticias-texto{
+    color: white;
+}
+
+.cajas-noticias div{
+    margin: 30px;
+}
+
+.cajas-noticias div img{
+    width: 350px;
+    height: 350px;
+}
+
+.cajas-noticias div p{
+    width: 400px;
+    padding: 8px;
+}
+
+.cajas-noticias div p a{
+    text-decoration: none;
+    color: black;
+}
+
+/*-----------------VIDEOS-----------------*/
+
+.fondo-noticias{
+    background-color: #c7c7c7;
+}
+
+.generalFirst{
+    width: 500px;
+    padding: 5% 5% 5% 0;
+}
+
+.generalUnico{
+    width: 500px;
+    padding: 5% 5% 5% 5%;
+}
+
+
+
+/*-----------------FOOTER-----------------*/
+
+.caja-footer{
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.caja-footer p{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+
+.caja-footer li{
+    display: inline-block;
+    padding: 30px;
+}
+
+.caja-footer li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*-----------------Media Queries-----------------*/
+/*-----------------Media Queries-----------------*/
+/*-----------------Media Queries-----------------*/
+/*-----------------Media Queries-----------------*/
+/*-----------------Media Queries-----------------*/
+
+
+@media(max-width: 707.98px){
+    
+
+
+    .caja-text p{
+        width: 300px;
+    }
+
+    .caja-img img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .caja-responsive img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .nosotros-responsive img{
+        width: 250px;
+        height: 150px;
+    }
+
+    .caja-adoptar{
+        width: 300px;
+    }
+
+    .caja-texto p{
+        width: 400px;
+    }
+
+    .iframe-edit iframe{
+        width: 400px;
+        height: 300px;
+    }
+
+
+
+
+    .caja-footer ul{
+        display: flex;
+    }
+}
+
+
+
+
+
+
